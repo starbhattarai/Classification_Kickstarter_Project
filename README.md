@@ -1,8 +1,10 @@
 
 # This project will classify whether the given project will be successful or not for the following given attribute 
- ## The dataset\n"
+ ## The dataset
  
-    Kickstarter is one of the main online crowdfunding platforms in the world. The dataset provided contains more than 300,000 projects launched on the platform in 2018. In the `data.csv` file there are the following columns:
+    Kickstarter is one of the main online crowdfunding platforms in the world. 
+    The dataset provided contains more than 300,000 projects launched on the platform in 2018. 
+    In the `data.csv` file there are the following columns:
    - **ID**: internal ID, _numeric_
    - **name**: name of the project, _string_
    - **category**: project's category, _string_
