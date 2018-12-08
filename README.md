@@ -1,3 +1,24 @@
+
+# This project will classify whether the given project will be successful or not for the following given attribute 
+ ## The dataset\n"
+ 
+    Kickstarter is one of the main online crowdfunding platforms in the world. The dataset provided contains more than 300,000 projects launched on the platform in 2018. In the `data.csv` file there are the following columns:
+   - **ID**: internal ID, _numeric_
+   - **name**: name of the project, _string_
+   - **category**: project's category, _string_
+   - **main_category**: campaign's category, _string_
+   - **currency**: project's currency, _string_\n",
+   - **deadline**: project's deadline date, _timestamp_
+   - **goal**: fundraising goal, _numeric_
+   - **launched**: project's start date, _timestamp_
+   - **pledged**: amount pledged by backers (project's currency), _numeric_
+   - **state**: project's current state, _string_; **this is what model predict**
+   - **backers**: amount of poeple that backed the project, _numeric_
+   - **country**: project's country, _string_
+   - **usd pledged**: amount pledged by backers converted to USD (conversion made by KS), _numeric_
+   - **usd_pledged_real**: amount pledged by backers converted to USD (conversion made by fixer.io api), _numeric_
+   - **usd_goal_real**: fundraising goal is USD, _numeric_
+   
 ## To Use a Python module, final_module.py, Please follow the following steps:
         1.Import the final_module:
             a. import final_module as fm
